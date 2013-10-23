@@ -127,7 +127,7 @@ angular.module('chieffancypants.loadingBar', [])
   .provider('cfpLoadingBar', function() {
 
     this.includeSpinner = true;
-    this.parentSelector = 'loader';
+    this.parentSelector = '#loader';
 
     this.$get = ['$document', '$timeout', '$animate', function ($document, $timeout, $animate) {
 
